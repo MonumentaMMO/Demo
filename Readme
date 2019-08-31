@@ -1,0 +1,150 @@
+# Introduction
+	This is a demo for Monumenta - a cooperative PvE MMO Complete-The-Monument
+	RPG.
+
+	This is the first "major" dungeon in the game, named "The Halls of Wind and
+	Blood". Monumenta contains several dungeons like this (as of this writing,
+	12, with more added over time) each with different monsters and challenges 
+	to overcome in pursuit of glorious loot.
+
+	We call this a "demo" - but it's a full featured map that we hope will be
+	fun to play through. It's got some advertisements at the beginning and end
+	for the "real" server (which we hope you'll join!) but there's nothing
+	intentionally missing/crippled here. It's a fun game, and we hope you enjoy
+	it.
+
+# Details:
+    Length: 3-8 hours
+    Players: 1-8 players
+    Available classes: Mage, Warrior, Scout
+    Minecraft Version: 1.13.2
+    Demo Version: V1.1
+
+# Quickstart:
+    - Ensure you have Java installed (minimum version 1.8)
+    - From the "Monumenta Demo - The Halls of Wind and Blood" folder:
+        Run "start_monumenta_demo.bat" (Windows)
+        or
+        Run "start_monumenta_demo.sh" (Linux)
+
+	- Open Minecraft 1.13.2, go to "Multiplayer", and add a server named
+	  "Monumenta Demo" address "localhost"
+
+# Info about Monumenta:
+    Website: https://www.playmonumenta.com
+    Server: server.playmonumenta.com
+    Discord: https://discord.gg/eep9qcu
+
+	Monumenta is a game developed entirely for free by members of the
+	Complete-The-Monument (CTM) community. It collects only enough money (via
+	donations) to pay for hosting - the game is free to play forever, and has
+	no pay-to-win elements.
+
+	The team consists of more than 40 random people on the Internet who have
+	come together over the years to build a great game we could all enjoy
+	playing.
+
+	Development and support for Monumenta is communicated almost entirely via
+	Discord - sort of a hybrid chat room / forum. We have a modest, friendly
+	community there, including ways to submit bugs and get help from
+	moderators.
+
+# Monumenta Resource Pack
+	Monumenta has a resource pack that gives a unique texture/model to the 
+	majority of the hundreds of custom pieces of gear to be found in the game. 
+	Though it is developed by the player community, it is considered official and 
+	fully endorsed by the developers. We hope you consider checking it out, as 
+	it also	allows you to know items at a glance and gives a lot of character 
+	to the loot	of the game.
+	
+	It does not influence anything found outside Monumenta or retexture vanilla
+	Minecraft items/blocks/mobs.
+	
+	Installation:
+		- Ensure you have Java installed (minimum version 1.8)
+		- Install the latest version of Optifine for the version of Minecraft that 
+			Monumenta is using (at time of writing it is 1.13.2).
+		- Run the Optifine installation you just installed through the Minecraft
+			Launcher.
+		- Download the Monumenta Resource Pack, drop the .zip file into your 
+			resourcepacks folder in your Minecraft directory, and enable it in-game.
+	
+	We have made a quick video tutorial for this process: https://youtu.be/qC2iXvwihX0
+	
+	Java: https://www.java.com/en/
+	Optifine: https://optifine.net/downloads
+	Monumenta Resource Pack Download:
+	https://www.curseforge.com/minecraft/texture-packs/monumenta-mmo-resource-pack
+	
+
+# Technical Details:
+	This is a stand-alone game. Unlike many other minecraft maps that you
+	install by copying into your maps folder, this runs a stand-alone server
+	which you will connect to using your minecraft client. The reason for this
+	is that Monumenta has a significant number of features that can't be
+	implemented using only in-game commands.
+
+	The demo (like the actual Monumenta server and so many others) is built on
+	open-source modding software called Paper (based on Spigot and Bukkit).
+	This allows us to write "plugins" which implement cool stuff. One of the
+	biggest things that makes Monumenta unique is player classes - in this demo
+	you can choose to play as a Mage, Warrior, or Scout, each with unique
+	abilities. The full Monumenta game has 7 classes, with 14 advanced classes 
+	and just over 100 different special abilities they can use.
+
+	When you run this demo, you're really running a minecraft server which you
+	can then connect to and play. You can do this by running either the
+	start_monumenta_demo.bat (Windows) or start_monumenta_demo.sh (Linux)
+	script. This will start a server listening on the default minecraft port
+	(25565). If you're playing solo, you can launch Minecraft version 1.13.2
+	and connect to "localhost" to join the game. If you want to play with
+	friends, you'll need to make sure Minecraft is allowed through your
+	firewall and give them your IP address to connect to.
+
+
+# A note on running random software from the Internet:
+	Running untrusted software on your computer is probably a bad idea. It
+	seems like Minecraft's modding community has somehow managed to thrive
+	despite this - you can download modpacks containing software from hundreds
+	of different people and it seems to mostly be ok.
+
+	We know that the way we're distributing this demo is odd - but that's how
+	free software goes. All we can do is swear that to the best of our
+	knowledge, this demo contains nothing malicious. It will not collect any
+	information from your computer or read or modify anything outside of its
+	own folder.
+
+	If you'd prefer not to run this on your computer, we encourage you to try
+	out the game by connecting to the server's main address in Minecraft:
+	server.playmonumenta.com
+
+# Copyright information:
+	Monumenta certainly does not own the right to distribute any source
+	code/etc. from Mojang. If you look in this zip file, you'll find a large
+	paperclip.jar file. When launched, this file goes to Mojang's servers and
+	downloads the appropriate minecraft server.jar file and patches it to
+	contain the custom code that open-source developers have added to make it
+	possible to develop "plugins" for Minecraft. It does not contain the
+	minecraft source code itself.
+
+    You can find more information about Paper here: https://papermc.io/
+
+	If you look in the 'plugins' folder, you'll find this demo is distributed
+	with three plugins:
+		JeffChestSort - Open source, right clicking any empty space in a chest
+		twice will sort that chest.
+            https://github.com/JEFF-Media-GbR/Spigot-ChestSort
+
+		ScriptedQuests - Open source (and developed by Monumenta). Provides a
+		way to interact with NPCs more easily for questing.
+            https://github.com/TeamEpic/Scripted-Quests
+
+		MonumentaMain - Closed source (currently, but this may change).
+		Provides class abilities & all the other goodies that make Monumenta
+		work.
+
+	We are doing our best to comply in good faith with all the wonderful people
+	who have contributed to make Minecraft an excellent gaming platform 10
+	years after its original release.
+
+    Email MonumentaMMO@gmail.com with any questions or concerns.
